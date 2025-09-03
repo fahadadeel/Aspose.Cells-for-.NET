@@ -3,7 +3,13 @@
 
 [Aspose.Cells for .NET](https://products.aspose.com/cells/net) is an Excel Spreadsheet Programming API to speed up spreadsheet management and processing tasks. Excel .NET API supports to build cross-platform applications having the ability to generate, modify, convert, render and print spreadsheets.
 
-Aspose.Cells for .NET also provides two GUI based .NET controls. [Aspose.Cells.GridDesktop](https://docs.aspose.com/cells/net/how-to-use-aspose-cells-griddesktop/) supports desktop applications and [Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/how-to-use-aspose-cells-gridweb-with-net-core/) is specifically designed for .NET based web applications. Both Gird controls allow to import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations.
+Aspose.Cells for .NET also provides GUI based .NET controls. 
+
+[Aspose.Cells.GridJs](https://docs.aspose.com/cells/net/aspose-cells-gridjs/basics/) is specifically designed for .NET Core based web applications.
+
+[Aspose.Cells.GridDesktop](https://docs.aspose.com/cells/net/how-to-use-aspose-cells-griddesktop/) supports desktop applications.   
+
+[Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/how-to-use-aspose-cells-gridweb-with-net-core/) is specifically designed for Asp .NET/.NET Core based web applications.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip">
@@ -15,8 +21,9 @@ Directory | Description
 --------- | -----------
 [Demos](Demos)  | Source for the live demos hosted at https://products.aspose.app/cells/family.
 [Examples](Examples)  | A collection of .NET examples that help you learn and explore the API features.
-[Examples of GridDesktop](Examples_GridDesktop)  | A collection of .NET examples that help you learn and use Aspose.Cells.GridDesktop.
-[Examples of GridWeb](Examples_GridWeb)  | A collection of .NET examples that help you learn and use Aspose.Cells.GridWeb.
+[Examples of GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridJs)  |example that help you learn and use Aspose.Cells.GridJs to build .NET Core web application of Excel editor based on canvas rendering. 
+[Examples of GridDesktop](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridDesktop)  | A collection of .NET examples that help you learn and use Aspose.Cells.GridDesktop.
+[Examples of GridWeb](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridWeb)  |example that help you learn and use Aspose.Cells.GridWeb to build Asp .NET/.NET Core web application of Excel editor based on html dom. 
 [Plugins](Plugins)  | Visual Studio plugins of Aspose.Cells for .NET.
 
 ## Spreadsheet Processing via .NET
