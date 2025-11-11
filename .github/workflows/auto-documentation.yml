@@ -297,6 +297,19 @@ jobs:
             --examples-repo "../.." \
             --docs-repo "../../../docs-repo"
 
+      - name: Debug - Check Generated Files
+        if: steps.check_docs_repo.outputs.skip == 'false'
+        working-directory: docs-repo
+        run: |
+          echo "📁 Checking generated documentation files..."
+          git status
+          echo ""
+          echo "📝 New/Modified files:"
+          git diff --name-only
+          echo ""
+          echo "📋 Untracked files:"
+          git ls-files --others --exclude-standard
+
       - name: Create Pull Request
         if: steps.check_docs_repo.outputs.skip == 'false'
         uses: peter-evans/create-pull-request@v5
