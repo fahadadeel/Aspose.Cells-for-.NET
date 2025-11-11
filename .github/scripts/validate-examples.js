@@ -127,7 +127,7 @@ class ExampleValidator {
         try {
             // First restore dependencies
             console.log(`📦 Restoring NuGet packages...`);
-            execSync('dotnet restore Aspose.Cells.Examples.CSharp.sln --verbosity minimal', { 
+            execSync('dotnet restore Examples/Aspose.Cells.Examples.CSharp.sln --verbosity minimal', { 
                 cwd: REPO_ROOT,
                 stdio: 'pipe',
                 env: { 
@@ -139,7 +139,7 @@ class ExampleValidator {
             
             // Build the solution
             console.log(`🔨 Building solution...`);
-            execSync('dotnet build Aspose.Cells.Examples.CSharp.sln --configuration Release --verbosity minimal --no-restore', { 
+            execSync('dotnet build Examples/Aspose.Cells.Examples.CSharp.sln --configuration Release --verbosity minimal --no-restore', { 
                 cwd: REPO_ROOT,
                 stdio: 'pipe',
                 env: { 
