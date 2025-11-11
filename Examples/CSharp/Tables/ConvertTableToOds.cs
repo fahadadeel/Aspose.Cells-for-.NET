@@ -23,7 +23,7 @@ namespace Aspose.Cells.Examples.CSharp.Tables
             wb.Save(outputDir + "ConvertTableToOds_out.ods");
             // ExEnd:1
 
-            Console.WriteLine("ConvertTableToOds executed successfully.");
+            Console.WriteLine("ConvertTableToOds executed successfully..");
         }
     }
 }
